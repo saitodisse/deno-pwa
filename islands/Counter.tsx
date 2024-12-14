@@ -24,7 +24,7 @@ export default function Counter(props: CounterProps) {
       >
         -1
       </Button>
-      <p class="text-3xl tabular-nums">{props.count}</p>
+      <p class="text-3xl tabular-nums w-24 text-center">{props.count}</p>
       <Button
         onClick={() => {
           props.count.value += 1;

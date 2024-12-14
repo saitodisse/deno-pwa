@@ -29,7 +29,7 @@ export default function Home({ data }: PageProps<Data>) {
         />
         <h1 class="text-4xl font-bold">Fresh : Deno</h1>
         <p class="my-4">
-          Conta!
+          Preserva último numero pela querystring
         </p>
         <Counter count={count} />
       </div>
